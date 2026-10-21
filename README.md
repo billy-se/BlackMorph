@@ -18,7 +18,7 @@ python train_privacy.py
 ---
 
 9-15-26
-
+```bash
 Epoch 1/10 | Loss: 0.6158 | ε = 0.14 (δ=1e-5)
 Epoch 2/10 | Loss: 0.5696 | ε = 0.19 (δ=1e-5)
 Epoch 3/10 | Loss: 0.6153 | ε = 0.23 (δ=1e-5)
@@ -29,3 +29,19 @@ Epoch 7/10 | Loss: 0.6705 | ε = 0.36 (δ=1e-5)
 Epoch 8/10 | Loss: 0.7243 | ε = 0.38 (δ=1e-5)
 Epoch 9/10 | Loss: 0.7159 | ε = 0.40 (δ=1e-5)
 Epoch 10/10 | Loss: 0.7461 | ε = 0.43 (δ=1e-5)
+```
+---
+
+### Project Roadmap & Direction
+Phase 1: Baseline Validation (Current)
+[x] Successfully run private training loop on MNIST with Opacus in WSL.
+
+[x] Track epsilon progression across epochs.
+
+Phase 2: Scaling & Optimization
+[ ] Experiment with different privacy budgets and noise multipliers.
+
+[ ] Port the training script to a larger dataset (e.g., FashionMNIST).
+
+### Contributing
+Feedback, critics and suggestions are welcome :)
